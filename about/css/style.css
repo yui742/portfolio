@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* profileセクション */
+.profile {
+    max-width: 1366px;
+}
+
+.profile_inner {
+    background-image: url(../images/profile_shape.svg);
+    background-repeat: no-repeat;
+    background-position: 16% 14%, 16% 746px;
+    display: flex;
+    padding-top: 126px;
+}
+
+.profile_title {
+    width: 8%;
+    padding-left: 7%;
+    background-color: transparent;
+}
+
+.profile_content {
+    width: 60%;
+    text-align: center;
+    padding-left: 8%;
+}
+
+.profile_name {
+    padding-top: 10px;
+    font-size: 36px;
+    background-color: transparent;
+}
+
+.profile_text {
+    font-size: 24px;
+    text-align: left;
+    background-color: transparent;
+}
+
+/* strangeセクション  */
+.strange {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.strange_shape01_wrap {
+    position: relative;
+    z-index: 0;
+}
+.strange_shape01 {
+    position: absolute;
+    top: -210px;
+}
+
+.strange_inner {
+    background-image: url(../images/strange_shape02.svg),
+        url(../images/strange_img01.png), url(../images/strange_img02.png),
+        url(../images/strange_img03.png), url(../images/strange_shape03.svg),
+        url(../images/strange_shape04.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 825px 338px, 82px 559px, 733px 1130px, 82px 1702px;
+    padding-top: 365px;
+    height: 1878px;
+}
+
+.strange_title {
+    background-color: transparent;
+    text-align: center;
+}
+
+.strange_content_text {
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.strange_content_title {
+    background-color: transparent;
+    font-size: 48px;
+}
+
+.strange_content01 {
+    width: 571px;
+    margin-left: 546px;
+    margin-top: 211px;
+}
+
+.strange_content02 {
+    width: 574px;
+    margin-left: 247px;
+    margin-top: 280px;
+}
+
+.strange_content03 {
+    width: 574px;
+    margin-left: 544px;
+    margin-top: 328px;
+}

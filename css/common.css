@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+/* cssリセット */
+
+/*利用するタグによってこちらの内容は増やす*/
+
+html,
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dt,
+dd,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+    /*デフォルトの文字色、font-familyを予め当てておく*/
+    color: #4f260b;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    background-color: #f3e9cf;
+    font-feature-settings: "palt";
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+li {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+
+/* ヘッダー */
+.nav_list {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.nav_logo {
+    width: 8%;
+}
+
+.nav_list ul {
+    display: flex;
+    gap: 70px;
+}
+
+.li_about {
+    width: 66px;
+    /* width: 6%; */
+}
+
+.li_works {
+    width: 72px;
+    /* width: 7%; */
+}
+
+.li_contact {
+    width: 89px;
+    /* width: 8%; */
+    quotes: inherit;
+}
+.nav_list li:last-child {
+    padding-right: 0px;
+}
+
+/* footerセクション */
+footer {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.footer_shape01_wrap {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer_shape01 {
+    position: absolute;
+    top: -250px;
+}
+
+.footer_inner {
+    width: 1100px;
+    padding-top: 94px;
+    margin: 0 auto;
+}
+
+.footer_button_wrap {
+    text-align: center;
+    padding-top: 13%;
+}
+.footer_button {
+    width: 224px;
+    height: 60px;
+    /* padding: 2% 0px; */
+    background: #f46159;
+    border-radius: 30px;
+    border: none;
+}
+
+.footer_button img {
+    width: 101px;
+}
+
+.footer_nav {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.footer_nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer_copy {
+    text-align: center;
+    padding-top: 65px;
+}
+
+.footer_copy img {
+    width: 209px;
+}
+
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    width: 151px;
+    height: 151px;
+    padding: 10px 15px;
+}
